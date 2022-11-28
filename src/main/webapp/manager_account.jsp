@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/images/test-image.jpg" type="image/x-icon" />
     <title>Magic Shop - Bakery | Reservation</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -44,30 +44,23 @@
 				</div>
 				<div class="col-12 col-md d-flex justify-content-md-end">
 					<p class="mb-0">Mở cửa từ thứ Hai đến Chủ Nhật</p>
-					<div class="social-media">
-						<p class="mb-0 d-flex">
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-							
-						</p>
-					</div>
+                    <div class=" right-content mg-left">
+                        <c:if test="${sessionScope.acc == null}">
+                            <a href="./signIn-signUp.jsp" class="avatar">
+                                <img src="images/test-image.jpg" alt="" class="avatar-img">
+                            </a>
+                        </c:if>
+    
+                        <c:if test="${sessionScope.acc != null}">
+                            <a href="./user-profile.jsp" class="avatar">
+                                <img src="images/test-image.jpg" alt="" class="avatar-img">
+                            </a>
+                        </c:if>
+                    </div>
 				</div>
 			</div>
 		</div>
-		<div class=" right-content mg-left">
-                    <c:if test="${sessionScope.acc == null}">
-                        <a href="./signIn-signUp.jsp" class="avatar">
-                            <img src="images/test-image.jpg" alt="" class="avatar-img">
-                        </a>
-                    </c:if>
 
-                    <c:if test="${sessionScope.acc != null}">
-                        <a href="./user-profile.jsp" class="avatar">
-                            <img src="images/test-image.jpg" alt="" class="avatar-img">
-                        </a>
-                    </c:if>
-                </div>
 	</div>
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -147,10 +140,10 @@
                               <div class="cart-row">
                               <div class="cart-item cart-column">
                                     <img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-                                    <span class="cart-item-title">Cheese Roll</span>
+                                    <span class="cart-item-title">cart-item</span>
                               </div>
 
-                              <span class="cart-price cart-column">29$</span>
+                              <span class="cart-price cart-column">cart-price</span>
                               <div class="cart-quantity cart-column">
                                     <input class="cart-quantity-input" type="number" value="1">
                                     <button class="modal-btn btn-danger" type="button">Delete</button>
@@ -159,9 +152,9 @@
                             <div class="cart-row">
                               <div class="cart-item cart-column">
                                     <img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-                                    <span class="cart-item-title">Meat Pie (Pastel De Carne)</span>
+                                    <span class="cart-item-title">cart-item</span>
                               </div>
-                              <span class="cart-price cart-column">29$</span>
+                              <span class="cart-price cart-column">cart-price</span>
                               <div class="cart-quantity cart-column">
                                     <input class="cart-quantity-input" type="number" value="2">
                                     <button class="modal-btn btn-danger" type="button">Delete</button>
@@ -172,7 +165,7 @@
 
                       <div class="cart-total">
                             <strong class="cart-total-title">Total:</strong>
-                            <span class="cart-total-price">87$</span>
+                            <span class="cart-total-price">price</span>
                       </div>
 
 
@@ -191,7 +184,7 @@
 		</div>
 	</nav>
     <!-- END nav -->
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/test-image.jpg');" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                     <div class="row no-gutters slider-text align-items-end justify-content-center">

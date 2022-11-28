@@ -302,13 +302,15 @@
                 <div class="testimony-wrap text-center">
                   <div class="text p-3">
                     <p class="mb-4">Những chiếc giày đẹp sẽ làm cho đôi chân đẹp</p>
-                    <div class="user-img mb-4" style="background-image: url(images/img/blogs/conv.jpg
+                    <div class="user-img mb-4" style="background-image: url(images/img/blogs/conv.jpg)">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="fa fa-quote-left"></i>
                       </span>
                     </div>
                     <p class="name">Nguyễn Minh Nhựt</p>
-                    <span class="position">Customer</span>
+                    <span class="position">
+                      Customer
+                    </span>
                   </div>
                 </div>
               </div>

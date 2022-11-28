@@ -220,8 +220,6 @@
                                                 </div>
                                             </div>
                                     </c:forEach>
-                                   <span class="flat flaticon-cupcake" style="left: 0;"></span>
-                                   <span class="flat flaticon-ice-cream" style="right: 0;"></span>
                             </div>
                         </div>
 
@@ -246,8 +244,6 @@
                                             </div>
                                         </div>
                                 </c:forEach>
-                                <span class="flat flaticon-cupcake" style="left: 0;"></span>
-                                <span class="flat flaticon-ice-cream" style="right: 0;"></span>
                             </div>
                         </div>
 
@@ -272,8 +268,6 @@
                                                         </div>
                                                     </div>
                                             </c:forEach>
-                                            <span class="flat flaticon-wine" style="left: 0;"></span>
-                                            <span class="flat flaticon-wine-1" style="right: 0;"></span>
                                     </div>
                             </div>
                     </div>

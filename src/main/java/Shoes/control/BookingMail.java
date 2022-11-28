@@ -41,8 +41,8 @@ public class BookingMail extends HttpServlet {
         
         String toBooking = bookingEmail;
         String bodyBooking = "Dear " + bookingName + ", \n\n"
-                    + "Thank you for using our bakery service – Happy Shoes.\n"
-                    + "We have pleasure in confirming that we have booked a table for " + bookingQuantity 
+                    + "Thank you for using our our service – Happy Shoes.\n"
+                    + "We have pleasure in confirming that we have " + bookingQuantity 
                     + " guests from " + bookingTime + " on " + bookingDate + ".\n"
                     + "Reservation code: " + bookingCode + ".\n"
                     + "(Please keep this code to confirm your reservation.)\n\n"
