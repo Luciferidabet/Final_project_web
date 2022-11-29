@@ -10,6 +10,7 @@ Factory\CategoryFactory$1.class
 Shoes\dao\DAO.class
 Shoes\control\DeleteControl.class
 Shoes\control\UpdateProfile.class
+Shoes\control\Logout.class
 Shoes\context\DBContext.class
 Shoes\control\ManagerProductControl.class
 Factory\CategoryFactory.class

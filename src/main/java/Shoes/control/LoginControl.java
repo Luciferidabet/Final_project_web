@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package Shoes.control;
 
 import java.io.IOException;
@@ -20,23 +16,23 @@ import Shoes.entity.Account;
  *
  * @author ADMIN
  */
-@WebServlet(name = "LoginControl", urlPatterns = {"/signin"})
+@WebServlet(name = "LoginControl", urlPatterns = {"/LoginControl"})
 public class LoginControl extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = request.getSession();
+
         String username = request.getParameter("user");
         String password = request.getParameter("pass");
-        
+
         DAO dao = new DAO();
         Account a = dao.login(username, password);
-       
         if(a == null){
             request.setAttribute("mess", "Wrong username or password");
             request.getRequestDispatcher("signIn-signUp.jsp").forward(request, response);
         }
         else{
-           HttpSession session = request.getSession();
            session.setAttribute("acc", a);
            
            session.setAttribute("userid", a.getAccountId());

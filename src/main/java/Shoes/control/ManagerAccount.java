@@ -20,7 +20,7 @@ import Shoes.entity.Product;
  *
  * @author Nhut
  */
-@WebServlet(name = "ManagerAccount", urlPatterns = {"/Manager_account"})
+@WebServlet(name = "ManagerAccount", urlPatterns = {"/ManagerAccount"})
 public class ManagerAccount extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

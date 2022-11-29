@@ -111,7 +111,8 @@ public class DAO {
 
 
         String query = "select *\n" +
-                        "FROM product\n";
+                        "FROM product\n" +
+                        "where category_id = ?";
 
         try {
             conn = new DBContext().getConnection();
@@ -143,12 +144,12 @@ public class DAO {
 
 
         String query = "SELECT * FROM product\n" +
-                "where category_id = ? and enable= ?";
+                "where category_id = ? and enable= 1";
 
         try {
             conn = new DBContext().getConnection();
             ps = conn.prepareStatement(query);
-            ps.setString(1, category_id);
+            ps.setString(3, category_id);
             rs = ps.executeQuery();
 
             while(rs.next()){

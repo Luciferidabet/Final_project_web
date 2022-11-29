@@ -105,12 +105,13 @@
     </c:if>
 
     <c:if test="${sessionScope.acc.isAdmin == 1}">
-        <div id="manage">
-            <div class="right-content">
-                <a href="#"><i style="color:#fff; width: 36px;" class="fa-solid fa-gear"></i></a>
-            </div>
-        </div>
-    </c:if>
+      <div id="manage">
+          <div class="right-content">
+                  <a href="./signIn-signUp.jsp" class="avatar">
+                  <img src="images/img/icon-img/turn.png" alt="" class="avatar-img">
+          </div>
+      </div>
+  </c:if>
 
     <c:if test="${sessionScope.acc.isAdmin != 1}">
         <div id="cart">

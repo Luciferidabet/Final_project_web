@@ -4,7 +4,7 @@
 <head>
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/images/test-image.jpg" type="image/x-icon" />
     <title>Happy Shoes Shop - Shoes | About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -100,7 +100,8 @@
                 <c:if test="${sessionScope.acc.isAdmin == 1}">
                     <div id="manage">
                         <div class="right-content">
-                            <a href="#"><i style="color:#fff; width: 36px;" class="fa-solid fa-gear"></i></a>
+                                <a href="./signIn-signUp.jsp" class="avatar">
+                                <img src="images/img/icon-img/turn.png" alt="" class="avatar-img">
                         </div>
                     </div>
                 </c:if>
@@ -176,7 +177,7 @@
 	</nav>
     <!-- END nav -->
         
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/icon-img/box.png');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -193,12 +194,12 @@
     <div class="container">
       <div class="row d-flex">
         <div class="col-md-6 d-flex">
-        <div class="img img-2 w-100 mr-md-2" style="background-image: url(images/bg_6.jpg);"></div>
-        <div class="img img-2 w-100 ml-md-2" style="background-image: url(images/space_1.jpeg);"></div>
+        <div class="img img-2 w-100 mr-md-2" style="background-image: url(images/img/blogs/adidas.jpg);"></div>
+        <div class="img img-2 w-100 ml-md-2" style="background-image: url(images/img/customers/mbappe.jpg);"></div>
       </div>
       <div class="col-md-6 ftco-animate makereservation p-4 p-md-5">
         <div class="heading-section ftco-animate mb-5">
-          <span class="subheading">This is our secrets</span>
+          <span class="subheading">Happy Shoes Shop</span>
           <h2 class="mb-4">Perfect Shoes</h2>
           <p>Content - Test
           </p>
@@ -302,13 +303,15 @@
                 <div class="testimony-wrap text-center">
                   <div class="text p-3">
                     <p class="mb-4">Những chiếc giày đẹp sẽ làm cho đôi chân đẹp</p>
-                    <div class="user-img mb-4" style="background-image: url(images/img/blogs/conv.jpg
+                    <div class="user-img mb-4" style="background-image: url(images/img/blogs/conv.jpg)">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="fa fa-quote-left"></i>
                       </span>
                     </div>
                     <p class="name">Nguyễn Minh Nhựt</p>
-                    <span class="position">Customer</span>
+                    <span class="position">
+                      Customer
+                    </span>
                   </div>
                 </div>
               </div>

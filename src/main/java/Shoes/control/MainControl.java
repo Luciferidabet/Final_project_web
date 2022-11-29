@@ -24,7 +24,7 @@ import Shoes.util.MailUtilLocal;
 public class MainControl extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String url = "/index.jsp";
+        String url= "/index.jsp";
         String action = request.getParameter("action");
         String user = request.getParameter("user");
         String email = request.getParameter("email");

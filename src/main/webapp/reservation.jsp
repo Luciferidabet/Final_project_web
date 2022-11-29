@@ -42,15 +42,8 @@
 				</div>
 				<div class="col-12 col-md d-flex justify-content-md-end">
 					<p class="mb-0">Mở của từ thứ Hai đến Chủ Nhật</p>
-					<div class="social-media">
-						<p class="mb-0 d-flex">
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-							
-						</p>
-					</div>
 				</div>
+                
 			</div>
 		</div>
 		<div class=" right-content mg-left">
@@ -107,7 +100,8 @@
     <c:if test="${sessionScope.acc.isAdmin == 1}">
         <div id="manage">
             <div class="right-content">
-                <a href="#"><i style="color:#fff; width: 36px;" class="fa-solid fa-gear"></i></a>
+                    <a href="./signIn-signUp.jsp" class="avatar">
+                    <img src="images/img/icon-img/turn.png" alt="" class="avatar-img">
             </div>
         </div>
     </c:if>
