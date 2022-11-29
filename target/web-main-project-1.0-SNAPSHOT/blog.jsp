@@ -176,7 +176,7 @@
 		</div>
 	</nav>
     <!-- END nav -->
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/nike.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -193,16 +193,16 @@
       <div class="row">
         <div class="col-md-4 ftco-animate">
           <div class="blog-entry">
-            <a href="blog-single.jsp" class="block-20" style="background-image: url('images/img-1.jpg');">
+            <a href="blog-single.jsp" class="block-20" style="background-image: url('images/img/blogs/nike.jpg');">
             </a>
             <div class="text px-4 pt-3 pb-4">
               <div class="meta">
                 <div><p>August 3, 2021</p></div>
-                <div><p>Admin</p></div>
+                <div><p>Dương Tôn Phát</p></div>
               </div>
-              <h3 class="heading"><a href="blog-single.jsp">heading-Content</a></h3>
+              <h3 class="heading"><a href="blog-single.jsp">Nike phát hành bộ sưu tập giày đá bóng "DAYBREAK"</a></h3>
               <div class="blog-landing-article-excerpt small-paragraph">
-                <p>Content</p>
+                <p>Như vậy là chỉ ít ngày sau khi Nike Phantom GT ra mắt, Nike tiếp tục cho lên kệ phối màu của 2 dòng giày còn lại là Mercurial và Tiempo Legend, tạo nên một bộ sưu tập đầy đủ. Tên gọi được The Swoosh lựa chọn để đặt cho những phối màu mới này là “Daybreak”. Dường như cái tên này đã được Nike lựa chọn từ khá lâu rồi.</p>
               </div>
               <p class="clearfix">
                 <a href="blog-single.jsp" class="float-left read btn btn-primary">Read more</a>
@@ -213,16 +213,17 @@
         </div>
         <div class="col-md-4 ftco-animate">
           <div class="blog-entry">
-            <a href="blog-single.jsp" class="block-20" style="background-image: url('images/img-2.jpg');">
+            <a href="blog-single.jsp" class="block-20" style="background-image: url('images/img/blogs/adidas.jpg');">
             </a>
             <div class="text px-4 pt-3 pb-4">
               <div class="meta">
                 <div><p>August 2, 2021</p></div>
-                <div><p>Admin</p></div>
+                <div><p>Thu Hoài </p></div>
               </div>
-              <h3 class="heading"><a href="blog-single.jsp">Content</a></h3>
+              <h3 class="heading"><a href="blog-single.jsp">CEO Adidas: Chưa biết khi nào hãng sẽ tiếp tục hoạt động kinh doanh tại Nga</a></h3>
               <div class="blog-landing-article-excerpt small-paragraph">
-                <p>Content</p>
+                <p>Adidas đã báo cáo triển vọng năm 2022 tươi sáng vào 9/3, dự báo doanh số bán hàng sẽ tăng từ 11% đến 13%, có tính đến rủi ro kinh doanh ở Nga và Ukraina.
+                </p>
               </div>
               <p class="clearfix">
                 <a href="blog-single.jsp" class="float-left read btn btn-primary">Read more</a>
@@ -233,16 +234,16 @@
         </div>
         <div class="col-md-4 ftco-animate">
           <div class="blog-entry">
-            <a href="blog-single.jsp" class="block-20" style="background-image: url('images/img-3.png');">
+            <a href="blog-single.jsp" class="block-20" style="background-image: url('images/img/blogs/conv.jpg');">
             </a>
             <div class="text px-4 pt-3 pb-4">
               <div class="meta">
                 <div><p>August 3, 2020</p></div>
-                <div><p>Admin</p></div>
+                <div><p>Minh Nhựt</p></div>
               </div>
-              <h3 class="heading"><a href="blog-single.jsp">Content</a></h3>
+              <h3 class="heading"><a href="blog-single.jsp">Review giày Converse Classic - item thời trang cơ bản không thể thiếu</a></h3>
               <div class="blog-landing-article-excerpt small-paragraph">
-                <p>Content</p>
+                <p>Sở hữu vẻ ngoài cổ điển, thiết kế đơn giản, chính là đặc điểm nổi bật nhất của những đôi Converse Classic. Màu sắc được lựa chọn cũng tương đối đơn giản, vintage, và chất lượng bền bỉ không đối thủ của dòng giày này đã định hình trên toàn thế giới. Để giúp các bạn hiểu được rõ hơn về dòng sản phẩm đỉnh cao này, WearVn đã bỏ công review giày Converse Classic, giúp các bạn chọn đồ đơn giản dễ dàng hơn!</p>
               </div>
               <p class="clearfix">
                 <a href="blog-single.jsp" class="float-left read btn btn-primary">Read more</a>

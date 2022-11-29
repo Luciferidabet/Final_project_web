@@ -4,7 +4,7 @@
     <head>
         <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="icon" href="/images/test-image.jpg" type="image/x-icon" />
+        <link rel="icon" href="/images/img/blogs/adidas.jpg" type="image/x-icon" />
         <title>Happy Shoes Shop | Menu</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -179,7 +179,7 @@
         </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/test-image.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/adidas.jpg');" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                     <div class="row no-gutters slider-text align-items-end justify-content-center">
