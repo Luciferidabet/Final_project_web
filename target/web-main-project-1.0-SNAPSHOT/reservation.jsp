@@ -4,7 +4,7 @@
 <head>
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/images" type="image/x-icon" />
     <title>Happy Shoes Shop | Reservation</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -43,10 +43,7 @@
 				<div class="col-12 col-md d-flex justify-content-md-end">
 					<p class="mb-0">Mở của từ thứ Hai đến Chủ Nhật</p>
 				</div>
-                
-			</div>
-		</div>
-		<div class=" right-content mg-left">
+                <div class=" right-content mg-left">
                     <c:if test="${sessionScope.acc == null}">
                         <a href="./signIn-signUp.jsp" class="avatar">
                             <img src="images/test-image.jpg" alt="" class="avatar-img">
@@ -60,11 +57,13 @@
                         </a>
                     </c:if>
                 </div>
+			</div>
+		</div>
 	</div>
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="MainControl?action=home">Magic <span>Shop</span></a>
+			<a class="navbar-brand" href="MainControl?action=home">Happy Shoes<span>Shop</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -176,12 +175,12 @@
 		</div>
 	</nav>
     <!-- END nav -->
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/adidas.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end justify-content-center">
 				<div class="col-md-9 ftco-animate text-center mb-5">
-					<h1 class="mb-2 bread">Book A Table Now</h1>
+					<h1 class="mb-2 bread">Đặt lịch hẹn với chúng tôi</h1>
 					<p class="breadcrumbs"><span class="mr-2"><a href="MainControl?action=home">Home <i class="fa fa-chevron-right"></i></a></span> <span>Reservation <i class="fa fa-chevron-right"></i></span></p>
 				</div>
 			</div>
@@ -193,7 +192,7 @@
 			<div class="row no-gutters">
 				<div  class="col-sm-12 p-4 p-md-5 d-flex align-items-center justify-content-center bg-primary">
                                     <form action="booking" method="post" class="appointment-form">
-						<h3 class="mb-3">Book your Table</h3>
+						<h3 class="mb-3">Đặt lịch để chúng tôi có thể tư vấn cho bạn</h3>
 						<div class="row justify-content-center">
 							<div class="col-md-4">
 								<div class="form-group">
@@ -232,12 +231,11 @@
 										<div class="select-wrap">
 											<div class="icon"><span class="fa fa-chevron-down"></span></div>
 											<select name="bookingQuantity" id="" class="form-control">
-												<option  style="color: rgba(0, 0, 0, 0.7) !important;" value="">Guest</option>
-												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="1">1</option>
-												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="2">2</option>
-												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="3">3</option>
-												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="4">4</option>
-												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="5">5</option>
+												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="1">Hoài</option>
+												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="2">Nhựt</option>
+												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="3">Phát</option>
+												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="4">Messi</option>
+												<option style="color: rgba(0, 0, 0, 0.7) !important;" value="5">Ronaldo</option>
 											</select>
 										</div>
 									</div>

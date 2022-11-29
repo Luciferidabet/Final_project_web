@@ -177,7 +177,7 @@
 	</nav>
     <!-- END nav -->
         
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/icon-img/box.png');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/nike.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">

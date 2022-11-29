@@ -33,6 +33,7 @@
 
 </head>
 <body>
+        <form action="/MainControl" method="post"></form>
     <div class="wrap">
         <div class="container">
                 <div class="row justify-content-between">
@@ -81,7 +82,7 @@
                             <li class="nav-item active"><a href="MainControl?action=home" class="nav-link">Home</a></li>
                             <li class="nav-item"><a href="MainControl?action=about" class="nav-link">About</a></li>
                             <li class="nav-item"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
-                                <li class="nav-item"><a href="./order/order.jsp" class="nav-link">Booking</a></li>
+                                <!-- <li class="nav-item"><a href="./order/order.jsp" class="nav-link">Booking</a></li> -->
                             <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Reservation</a></li>
                             <li class="nav-item"><a href="MainControl?action=blog" class="nav-link">Blog</a></li>
                             <li class="nav-item"><a href="MainControl?action=contact" class="nav-link">Contact</a></li>
@@ -140,14 +141,15 @@
                               <span class="cart-price cart-header cart-column">Price</span>
                               <span class="cart-quantity cart-header cart-column">Quantity</span>
                             </div>
+                            <c:forEach items="${list}" var = "o">
                             <div class="cart-items">
                                 <div class="cart-row">
                                   <div class="cart-item cart-column">
-                                        <img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-                                        <span class="cart-item-title">Nike Air Force 1</span>
+                                        <!-- <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100"> -->
+                                        <span class="cart-item-title">${o.product_name}</span>
                                   </div>
 
-                                  <span class="cart-price cart-column">29$</span>
+                                  <span class="cart-price cart-column">${o.price}$</span>
                                   <div class="cart-quantity cart-column">
                                         <input class="cart-quantity-input" type="number" value="1">
                                         <button class="modal-btn btn-danger" type="button">Delete</button>
@@ -170,10 +172,10 @@
                                   <strong class="cart-total-title">Total:</strong>
                                   <span class="cart-total-price">Price</span>
                             </div>
-
+                            </c:forEach>
 
                             <div class="modal-footer">
-                                <button type="button" class="modal-btn btn-secondary close-footer">Close</button>
+                                <!-- <button type="button" class="modal-btn btn-secondary close-footer">Close</button> -->
                                   <c:if test="${sessionScope.acc == null}">
                                       <a href="./signIn-signUp.jsp"><button type="button" class="modal-btn btn-primary order">Checkout</button></a>
                                   </c:if>

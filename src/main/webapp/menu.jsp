@@ -214,7 +214,7 @@
                                                                         <h3><a href="#">${o.product_name}</a></h3>
                                                                 </div>
                                                                 <div class="one-forth">
-                                                                        <span class="price">$ ${o.price}</span>
+                                                                        <span class="price">${o.price}</span>
                                                                 </div>
                                                         </div>
                                                         <p>${o.description}</p>
