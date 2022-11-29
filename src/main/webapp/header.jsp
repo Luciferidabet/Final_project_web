@@ -4,7 +4,7 @@
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="icon" href="/images/img/img-size-l/m_bn_2_1.jpg" type="image/x-icon" />
-    <title>Magic Shop - Bakery</title>
+    <title>Happy Shoes Shop</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -45,12 +45,14 @@
 				</div>
 				<div class="col-12 col-md d-flex justify-content-md-end">
 					<p class="mb-0">Mở cửa từ thứ Hai đến Chủ Nhật</p>
+        </div>
+        
           <div class=" right-content mg-left">
             <a href="./user-profile.jsp" class="avatar">
                 <img src="images/img/icon-img/account.png" alt="" class="avatar-img">
             </a>
-        </div>
 				</div>
+
 			</div>
 		</div>
 

@@ -201,7 +201,7 @@
         <div class="heading-section ftco-animate mb-5">
           <span class="subheading">Happy Shoes Shop</span>
           <h2 class="mb-4">Perfect Shoes</h2>
-          <p>Content - Test
+          <p>Adidas, Nike, Zappos and other footwear brands made headlines with their shoe marketing campaigns. Nike, for example, focuses on creating meaningful stories that evoke emotions. Adidas has emerged as a brand built on innovation, while Zappos delivers highly personalized customer experiences. While you may not have the same budget as these brands, you can still grow your shoe business and stay competitive by thinking outside the box.
           </p>
         </div>
       </div>
@@ -278,7 +278,7 @@
                          <i class="fa fa-quote-left"></i>
                       </span>
                     </div>
-                    <p class="name">Nguyễn Minh Nhựt</p>
+                    <p class="name">Lionel Messi</p>
                     <span class="position">Customer</span>
                   </div>
                </div>
@@ -288,12 +288,12 @@
                 <div class="testimony-wrap text-center">
                   <div class="text p-3">
                     <p class="mb-4">Hãy giới thiệu thêm nhiều người bạn của bạn.</p>
-                    <div class="user-img mb-4" style="background-image: url(images/img/icon-img/account.png)">
+                    <div class="user-img mb-4" style="background-image: url(images/img/customers/MasonMount.jpg)">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="fa fa-quote-left"></i>
                       </span>
                     </div>
-                    <p class="name">Nguyễn Minh Nhựt</p>
+                    <p class="name">Mason Mount</p>
                     <span class="position">Customer</span>
                   </div>
                 </div>
@@ -303,12 +303,12 @@
                 <div class="testimony-wrap text-center">
                   <div class="text p-3">
                     <p class="mb-4">Những chiếc giày đẹp sẽ làm cho đôi chân đẹp</p>
-                    <div class="user-img mb-4" style="background-image: url(images/img/blogs/conv.jpg)">
+                    <div class="user-img mb-4" style="background-image: url(images/img/customers/mbappe.jpg)">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="fa fa-quote-left"></i>
                       </span>
                     </div>
-                    <p class="name">Nguyễn Minh Nhựt</p>
+                    <p class="name">Kylian Mbappe</p>
                     <span class="position">
                       Customer
                     </span>
@@ -320,12 +320,12 @@
                 <div class="testimony-wrap text-center">
                   <div class="text p-3">
                     <p class="mb-4">Một bộ quần áo đẹp là chưa đủ. Chúng ta cũng cần một ĐÔI GIÀY ĐẸP</p>
-                    <div class="user-img mb-4" style="background-image: url(images/img/blogs/nike.jpg)">
+                    <div class="user-img mb-4" style="background-image: url(images/img/customers/neymar.jpg)">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="fa fa-quote-left"></i>
                       </span>
                     </div>
-                    <p class="name">Nguyễn Minh Nhựt</p>
+                    <p class="name">Neymar Jr</p>
                     <span class="position">Customer</span>
                   </div>
                 </div>
@@ -335,12 +335,12 @@
                 <div class="testimony-wrap text-center">
                   <div class="text p-3">
                     <p class="mb-4">Cảm ơn vì đã sử dụng dịch vụ của chúng tôi</p>
-                    <div class="user-img mb-4" style="background-image: url(images/img/icon-img/smile.png)">
+                    <div class="user-img mb-4" style="background-image: url(images/img/customers/ronaldo.jpg)">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="fa fa-quote-left"></i>
                       </span>
                     </div>
-                    <p class="name">Nguyễn Minh Nhựt</p>
+                    <p class="name">Cristiano Ronaldo</p>
                     <span class="position">Customer</span>
                   </div>
                 </div>
