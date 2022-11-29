@@ -175,7 +175,7 @@
 	</nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/adidas.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -201,17 +201,17 @@
          </div>
          <div class="col-md-3 d-flex">
            <div class="dbox">
-             <p ><span>Phone:</span> <a href="#">0909374409</a></p>
+             <p ><span>Phone:</span>0909374409</p>
            </div>
          </div>
          <div class="col-md-3 d-flex">
            <div class="dbox">
-             <p ><span>Email:</span> <a href="#">nguyenminhnhut435@gmail.com</a></p>
+             <p ><span>Email:</span>nguyenminhnhut435@gmail.com</p>
            </div>
          </div>
          <div class="col-md-3 d-flex">
            <div class="dbox ">
-             <p ><span>Website:</span> <a href="#"> Link Website</a></p>
+             <p ><span>Website:</span> <a href="https://finalproject147.herokuapp.com/"> Link Website</a></p>
            </div>
          </div>
        </div>
