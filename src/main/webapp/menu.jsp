@@ -75,7 +75,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item "><a href="MainControl?action=home" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="MainControl?action=about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="./order/order.jsp" class="nav-link">Order</a></li>
+                <!-- <li class="nav-item"><a href="./order/order.jsp" class="nav-link">Order</a></li> -->
                 <li class="nav-item active"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Reservation</a></li>
                 <li class="nav-item"><a href="MainControl?action=blog" class="nav-link">Blog</a></li>
@@ -130,36 +130,69 @@
                                           <span class="cart-price cart-header cart-column">Price</span>
                                           <span class="cart-quantity cart-header cart-column">Quantity</span>
                                         </div>
+
                                         <div class="cart-items">
-                                          <div class="cart-row">
-                                          <div class="cart-item cart-column">
-                                                <img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-                                                <span class="cart-item-title">Cheese Roll</span>
-                                          </div>
 
-                                          <span class="cart-price cart-column">29$</span>
-                                          <div class="cart-quantity cart-column">
-                                                <input class="cart-quantity-input" type="number" value="1">
-                                                <button class="modal-btn btn-danger" type="button">Delete</button>
-                                          </div>
-                                        </div>
-                                        <div class="cart-row">
-                                          <div class="cart-item cart-column">
-                                                <img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-                                                <span class="cart-item-title">Meat Pie (Pastel De Carne)</span>
-                                          </div>
-                                          <span class="cart-price cart-column">29$</span>
-                                          <div class="cart-quantity cart-column">
-                                                <input class="cart-quantity-input" type="number" value="2">
-                                                <button class="modal-btn btn-danger" type="button">Delete</button>
-                                          </div>
-                                        </div>
-
-                                  </div>
+                                                <c:forEach items="${ListP1}" var = "o">
+                
+                                                <div class="cart-row">
+                                                        <div class="cart-item cart-column">
+                                                                <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                                                                <span class="cart-item-title">${o.product_name}</span>
+                                                        </div>
+                      
+                                                        <span class="cart-price cart-column">${o.price}</span>
+                      
+                                                        <div class="cart-quantity cart-column">
+                                                              <input class="cart-quantity-input" type="number" value="0">
+                                                              <button class="modal-btn btn-danger" type="button">Delete</button>
+                                                        </div>
+                      
+                                                      </div>
+                                                </c:forEach>
+                
+                
+                                                <c:forEach items="${ListP2}" var = "o">
+                
+                                                <div class="cart-row">
+                                                        <div class="cart-item cart-column">
+                                                                <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                                                                <span class="cart-item-title">${o.product_name}</span>
+                                                        </div>
+                      
+                                                        <span class="cart-price cart-column">${o.price}</span>
+                      
+                                                        <div class="cart-quantity cart-column">
+                                                              <input class="cart-quantity-input" type="number" value="0">
+                                                              <button class="modal-btn btn-danger" type="button">Delete</button>
+                                                        </div>
+                      
+                                                      </div>
+                                                </c:forEach>
+                
+                                                <c:forEach items="${ListP3}" var = "o">
+                
+                                                        <div class="cart-row">
+                                                                <div class="cart-item cart-column">
+                                                                        <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                                                                        <span class="cart-item-title">${o.product_name}</span>
+                                                                </div>
+                              
+                                                                <span class="cart-price cart-column">${o.price}</span>
+                              
+                                                                <div class="cart-quantity cart-column">
+                                                                      <input class="cart-quantity-input" type="number" value="0">
+                                                                      <button class="modal-btn btn-danger" type="button">Delete</button>
+                                                                </div>
+                              
+                                                              </div>
+                                                        </c:forEach>
+                
+                                            </div>
 
                                   <div class="cart-total">
                                         <strong class="cart-total-title">Total:</strong>
-                                        <span class="cart-total-price">87$</span>
+                                        <span class="cart-total-price">Price</span>
                                   </div>
 
 
@@ -235,7 +268,7 @@
                                             <div class="text">
                                                 <div class="d-flex">
                                                         <div class="one-half">
-                                                                <h3><a href="${o.detail_path}">${o.product_name}</a></h3>
+                                                                <h3><a href="#">${o.product_name}</a></h3>
                                                         </div>
                                                         <div class="one-forth">
                                                                 <span class="price">$ ${o.price}</span>
@@ -259,7 +292,7 @@
                                                         <div class="text">
                                                                 <div class="d-flex">
                                                                         <div class="one-half">
-                                                                                <h3><a href="${o.detail_path}">${o.product_name}</a></h3>
+                                                                                <h3><a href="#">${o.product_name}</a></h3>
                                                                         </div>
                                                                         <div class="one-forth">
                                                                                 <span class="price">$ ${o.price}</span>
@@ -320,12 +353,11 @@
                                                                             <div class="select-wrap">
                                                                                     <div class="icon"><span class="fa fa-chevron-down"></span></div>
                                                                                     <select name="" id="" class="form-control">
-                                                                                            <option value="">Guest</option>
-                                                                                            <option value="">1</option>
-                                                                                            <option value="">2</option>
-                                                                                            <option value="">3</option>
-                                                                                            <option value="">4</option>
-                                                                                            <option value="">5</option>
+                                                                                            <option value="">Nhựt</option>
+                                                                                            <option value="">Hoài</option>
+                                                                                            <option value="">Phát</option>
+                                                                                            <option value="">Messi</option>
+                                                                                            <option value="">Ronaldo</option>
                                                                                     </select>
                                                                             </div>
                                                                     </div>

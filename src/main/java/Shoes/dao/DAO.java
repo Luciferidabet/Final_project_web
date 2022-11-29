@@ -42,8 +42,8 @@ public class DAO {
                         rs.getString(2),
                         rs.getInt(3),
                         rs.getString(4),
-                        rs.getDouble(5),
-                        rs.getDouble(6),
+                        rs.getInt(5),
+                        rs.getInt(6),
                         rs.getInt(7),
                         rs.getString(8)));
             }
@@ -149,7 +149,7 @@ public class DAO {
         try {
             conn = new DBContext().getConnection();
             ps = conn.prepareStatement(query);
-            ps.setString(3, category_id);
+            ps.setString(1, category_id);
             rs = ps.executeQuery();
 
             while(rs.next()){
@@ -342,8 +342,8 @@ public class DAO {
         
         List<Category> listC = dao.getAllCategory();
 
-        for (Category o : listC) {
-            System.out.println(o);
-        }               
+        // for (Category o : listC) {
+        //     System.out.println(o);
+        // }               
     }
 }

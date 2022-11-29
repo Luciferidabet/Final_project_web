@@ -4,7 +4,7 @@
 <head>
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="/images" type="image/x-icon" />
+    <link rel="icon" href="/images/img/blogs/adidas.jpg" type="image/x-icon" />
     <title>Happy Shoes Shop | Reservation</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -243,7 +243,7 @@
 							</div>
 							<div class="col-md-4">
 								<div class="form-group">
-									<input type="submit" value="Book Your Table Now" class="btn btn-white py-3 px-4">
+									<input type="submit" value="Đặt lịch hẹn" class="btn btn-white py-3 px-4">
 								</div>
 							</div>
 						</div>

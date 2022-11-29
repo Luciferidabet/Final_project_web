@@ -4,7 +4,7 @@
 <head>
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="/images/test-image.jpg" type="image/x-icon" />
+    <link rel="icon" href="/images/img/blogs/adidas.jpg" type="image/x-icon" />
     <title>Happy Shoes Shop - Shoes | About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -73,7 +73,7 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active"><a href="MainControl?action=home" class="nav-link">Home</a></li>
                             <li class="nav-item"><a href="MainControl?action=about" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="./order/order.html" class="nav-link">Order</a></li>
+                            <!-- <li class="nav-item"><a href="./order/order.html" class="nav-link">Order</a></li> -->
                             <li class="nav-item"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
                             <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Reservation</a></li>
                             <li class="nav-item"><a href="MainControl?action=blog" class="nav-link">Blog</a></li>
@@ -177,7 +177,7 @@
 	</nav>
     <!-- END nav -->
         
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/icon-img/box.png');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/nike.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">

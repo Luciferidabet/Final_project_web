@@ -3,7 +3,7 @@
 <head>
     <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="/images/img/img-size-l/m_bn_2_1.jpg" type="image/x-icon" />
     <title>Magic Shop - Bakery</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,22 +45,15 @@
 				</div>
 				<div class="col-12 col-md d-flex justify-content-md-end">
 					<p class="mb-0">Mở cửa từ thứ Hai đến Chủ Nhật</p>
-					<div class="social-media">
-						<p class="mb-0 d-flex">
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-							<a href="https://www.facebook.com/dhspkt.hcmute" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-							
-						</p>
-					</div>
+          <div class=" right-content mg-left">
+            <a href="./user-profile.jsp" class="avatar">
+                <img src="images/img/icon-img/account.png" alt="" class="avatar-img">
+            </a>
+        </div>
 				</div>
 			</div>
 		</div>
-		<div class=" right-content mg-left">
-                    <a href="./user-profile.jsp" class="avatar">
-                        <img src="images/test-image.jpg" alt="" class="avatar-img">
-                    </a>
-                </div>
+
 	</div>
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -89,7 +82,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="MainControl?action=home" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="MainControl?action=about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="./order/order.html" class="nav-link">Order</a></li>
+                <!-- <li class="nav-item"><a href="./order/order.html" class="nav-link">Order</a></li> -->
                 <li class="nav-item"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="ManagerProductControl?action=manager_product" class="nav-link">Manager Product</a></li>
@@ -130,32 +123,65 @@
 					  <span class="cart-price cart-header cart-column">Price</span>
 					  <span class="cart-quantity cart-header cart-column">Quantity</span>
 					</div>
-					<div class="cart-items">
-					  <div class="cart-row">
-					  <div class="cart-item cart-column">
-						<img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-						<span class="cart-item-title">cart-item</span>
-					  </div>
-					  
-					  <span class="cart-price cart-column">29$</span>
-					  <div class="cart-quantity cart-column">
-						<input class="cart-quantity-input" type="number" value="1">
-						<button class="modal-btn btn-danger" type="button">Delete</button>
-					  </div>
-					</div>
-					<div class="cart-row">
-					  <div class="cart-item cart-column">
-						<img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-						<span class="cart-item-title">cart-item</span>
-					  </div>
-					  <span class="cart-price cart-column">29$</span>
-					  <div class="cart-quantity cart-column">
-						<input class="cart-quantity-input" type="number" value="2">
-						<button class="modal-btn btn-danger" type="button">Delete</button>
-					  </div>
-					</div>
-					
-				  </div>
+
+          <div class="cart-items">
+
+            <c:forEach items="${ListP1}" var = "o">
+
+            <div class="cart-row">
+                    <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                            <span class="cart-item-title">${o.product_name}</span>
+                    </div>
+
+                    <span class="cart-price cart-column">${o.price}</span>
+
+                    <div class="cart-quantity cart-column">
+                          <input class="cart-quantity-input" type="number" value="0">
+                          <button class="modal-btn btn-danger" type="button">Delete</button>
+                    </div>
+
+                  </div>
+            </c:forEach>
+
+
+            <c:forEach items="${ListP2}" var = "o">
+
+            <div class="cart-row">
+                    <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                            <span class="cart-item-title">${o.product_name}</span>
+                    </div>
+
+                    <span class="cart-price cart-column">${o.price}</span>
+
+                    <div class="cart-quantity cart-column">
+                          <input class="cart-quantity-input" type="number" value="0">
+                          <button class="modal-btn btn-danger" type="button">Delete</button>
+                    </div>
+
+                  </div>
+            </c:forEach>
+
+            <c:forEach items="${ListP3}" var = "o">
+
+                    <div class="cart-row">
+                            <div class="cart-item cart-column">
+                                    <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                                    <span class="cart-item-title">${o.product_name}</span>
+                            </div>
+
+                            <span class="cart-price cart-column">${o.price}</span>
+
+                            <div class="cart-quantity cart-column">
+                                  <input class="cart-quantity-input" type="number" value="0">
+                                  <button class="modal-btn btn-danger" type="button">Delete</button>
+                            </div>
+
+                          </div>
+                    </c:forEach>
+
+        </div>
 	
 				  <div class="cart-total">
 					<strong class="cart-total-title">Total:</strong>

@@ -4,7 +4,7 @@
     <head>
         <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="icon" href="/images/test-image.jpg" type="image/x-icon" />
+        <link rel="icon" href="/images/img/blogs/adidas.jpg" type="image/x-icon" />
         <title>Happy Shoes Shop | Menu</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -179,7 +179,7 @@
         </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/test-image.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/adidas.jpg');" data-stellar-background-ratio="0.5">
             <div class="overlay"></div>
             <div class="container">
                     <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -235,7 +235,7 @@
                                             <div class="text">
                                                 <div class="d-flex">
                                                         <div class="one-half">
-                                                                <h3><a href="${o.detail_path}">${o.product_name}</a></h3>
+                                                                <h3><a href="#">${o.product_name}</a></h3>
                                                         </div>
                                                         <div class="one-forth">
                                                                 <span class="price">$ ${o.price}</span>
@@ -259,7 +259,7 @@
                                                         <div class="text">
                                                                 <div class="d-flex">
                                                                         <div class="one-half">
-                                                                                <h3><a href="${o.detail_path}">${o.product_name}</a></h3>
+                                                                                <h3><a href="#">${o.product_name}</a></h3>
                                                                         </div>
                                                                         <div class="one-forth">
                                                                                 <span class="price">$ ${o.price}</span>
@@ -320,12 +320,11 @@
                                                                             <div class="select-wrap">
                                                                                     <div class="icon"><span class="fa fa-chevron-down"></span></div>
                                                                                     <select name="" id="" class="form-control">
-                                                                                            <option value="">Guest</option>
-                                                                                            <option value="">1</option>
-                                                                                            <option value="">2</option>
-                                                                                            <option value="">3</option>
-                                                                                            <option value="">4</option>
-                                                                                            <option value="">5</option>
+                                                                                            <option value="">Nhựt</option>
+                                                                                            <option value="">Hoài</option>
+                                                                                            <option value="">Phát</option>
+                                                                                            <option value="">Messi</option>
+                                                                                            <option value="">Ronaldo</option>
                                                                                     </select>
                                                                             </div>
                                                                     </div>

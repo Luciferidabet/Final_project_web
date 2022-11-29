@@ -16,7 +16,7 @@ import Shoes.entity.Account;
  *
  * @author ADMIN
  */
-@WebServlet(name = "LoginControl", urlPatterns = {"/LoginControl"})
+@WebServlet(name = "LoginControl", urlPatterns = {"/signin"})
 public class LoginControl extends HttpServlet {
 
     @Override
