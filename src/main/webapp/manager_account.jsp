@@ -234,8 +234,8 @@
                             <h2>Manage <b>Account</b></h2>
                         </div>
                         <div class="col-sm-6">
-                            <a href="#addEmployeeModal"  class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Add New Account</span></a>
-                            <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Delete</span></a>						
+                            <a href="#addEmployeeModal" id="addNewProduct"  class="btn btn-success" data-toggle="modal"><i class=" material-icons fa-solid fa-circle-plus"></i><span>Add New Account</span></a>
+                            <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons fa-solid fa-circle-minus"></i> <span>Delete</span></a>						
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <c:forEach items="${listA}" var="o">
+                        <c:forEach items="${ListA}" var="o">
                             <tr>
                                 <td>
                                     <span class="custom-checkbox">
@@ -264,13 +264,13 @@
                                         <label for="checkbox1"></label>
                                     </span>
                                 </td>
-                                <td>${o.product_id}</td>
-                                <td>${o.product_name}</td>
+                                <td>${o.accountid}</td>
+                                <td>${o.mail}</td>
                                 <td>
-                                    <img style="width: 120px; height: 85px;" src="${o.productImg_path}">
+                                    <td>${o.address}</td>
                                 </td>
-                                <td>$${o.price}</td>
-                                <td>${o.category_id}</td>
+                                <td>$${o.userName}</td>
+                                <td>${o.password}</td>
                                 <td>
                                     <a href="#editEmployeeModal"  class="edit" data-toggle="modal">Edit</a><br><!-- comment -->
                                     <a href="DeleteControl?pid=${o.product_id}" class="delete">Delete</a>
@@ -301,7 +301,7 @@
                 <div class="modal-content">
                     <form action="add" method="post">
                         <div class="modal-header">						
-                            <h4 class="modal-title">Add Product</h4>
+                            <h4 class="modal-title">Add Account</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         </div>
                         <div class="modal-body">					
