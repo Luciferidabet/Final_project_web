@@ -244,7 +244,7 @@
                                                 <div class="text">
                                                         <div class="d-flex">
                                                                 <div class="one-half">
-                                                                        <h3><a href="#">${o.product_name}</a></h3>
+                                                                        <h3><a href="./product-template/Shoes1.jsp">${o.product_name}</a></h3>
                                                                 </div>
                                                                 <div class="one-forth">
                                                                         <span class="price">$ ${o.price}</span>
@@ -268,7 +268,7 @@
                                             <div class="text">
                                                 <div class="d-flex">
                                                         <div class="one-half">
-                                                                <h3><a href="#">${o.product_name}</a></h3>
+                                                                <h3><a href="./product-template/Shoes2.jsp">${o.product_name}</a></h3>
                                                         </div>
                                                         <div class="one-forth">
                                                                 <span class="price">$ ${o.price}</span>

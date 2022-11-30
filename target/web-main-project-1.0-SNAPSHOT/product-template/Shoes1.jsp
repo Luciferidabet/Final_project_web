@@ -282,8 +282,8 @@
                 <div class="product-card">
                     <a  href="chicken-empanada.jsp" data-abc="true"><img class="product-thumb" src="${o.productImg_path}" alt="Product"></a>
                     <h3 class="product-title"><a href="chicken-empanada.jsp" data-abc="true">${o.product_name}</a></h3>
-                    <p class= "price-title">Price: <del style="margin-left: 5px;">39$</del></p> 
-                    <h4 class="product-price">29$ </h4>
+                    <p class= "price-title">Price: <del style="margin-left: 5px;">$ ${o.price}</del></p> 
+                    <h4 class="product-price">$ ${o.price}</h4>
                     <div class="product-buttons"><button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button> </div>
                 </div>
               </c:forEach>

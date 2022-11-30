@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Magic Shop - Bakery | Product Details</title>
+  <title>Happy Shoes shop | Product Details</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -107,8 +107,8 @@
                 <!-- <li class="nav-item"><a href="./order/order.html" class="nav-link">Order</a></li> -->
                 <li class="nav-item"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="ManagerProductControl?action=manager_product" class="nav-link">Manager Product</a></li>
-                <li class="nav-item"><a href="MainControl?action=manager_account" class="nav-link">Manager Account</a></li>
+                <li class="nav-item"><a href="../ManagerProductControl?action=manager_product" class="nav-link">Manager Product</a></li>
+                <li class="nav-item"><a href="../MainControl?action=manager_account" class="nav-link">Manager Account</a></li>
             </ul>
         </div>
     </c:if>
@@ -194,7 +194,7 @@
         </div>
       </nav>
       <!-- END nav -->
-      <section class="hero-wrap hero-wrap-2" style="background-image: url('../images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+      <section class="hero-wrap hero-wrap-2" style="background-image: url('../images/test-image.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -215,26 +215,26 @@
             <div id="slider" class="owl-carousel product-slider">
           
           <div class="item">
-              <img class="main_img" src="../images/wine2-detail1.jpg" />
+              <img class="main_img" src="../images/test-image.jpg" />
           </div>
           <div class="item">
-              <img src="../images/wine2-detail2.jpg" />
+              <img src="../images/test-image.jpg" />
           </div>
           <div class="item">
-              <img src="../images/wine2-detail3.jpg" />
+              <img src="../images/test-image.jpg" />
           </div>
          
         </div>
         <div id="thumb" class="owl-carousel product-thumb">
           
           <div class="item">
-              <img src="../images/wine2-detail1.jpg" />
+              <img src="../images/test-image.jpg" />
           </div>
           <div class="item">
-              <img src="../images/wine2-detail2.jpg" />
+              <img src="../images/test-image.jpg" />
           </div>
           <div class="item">
-              <img src="../images/wine2-detail3.jpg" />
+              <img src="../images/test-image.jpg" />
           </div>
           
         </div>
@@ -349,19 +349,19 @@
               <div class="ftco-footer-widget mb-4">
                 <h2 class="ftco-heading-2">Instagram</h2>
                 <div class="thumb d-sm-flex">
-                  <a href="#" class="thumb-menu img" style="background-image: url(../images/insta-1.jpg);">
+                  <a href="#" class="thumb-menu img" style="background-image: url(../images/test-image.jpg);">
                   </a>
-                  <a href="#" class="thumb-menu img" style="background-image: url(../images/insta-2.jpg);">
+                  <a href="#" class="thumb-menu img" style="background-image: url(../images/test-image.jpg);">
                   </a>
-                  <a href="#" class="thumb-menu img" style="background-image: url(../images/insta-3.jpg);">
+                  <a href="#" class="thumb-menu img" style="background-image: url(../images/test-image.jpg);">
                   </a>
                 </div>
                 <div class="thumb d-flex">
-                  <a href="#" class="thumb-menu img" style="background-image: url(../images/insta-4.jpg);">
+                  <a href="#" class="thumb-menu img" style="background-image: url(../images/test-image.jpg);">
                   </a>
-                  <a href="#" class="thumb-menu img" style="background-image: url(../images/insta-5.jpg);">
+                  <a href="#" class="thumb-menu img" style="background-image: url(../images/test-image.jpg);">
                   </a>
-                  <a href="#" class="thumb-menu img" style="background-image: url(../images/insta-6.jpg);">
+                  <a href="#" class="thumb-menu img" style="background-image: url(../images/test-image.jpg);">
                   </a>
                 </div>
               </div>
@@ -369,7 +369,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="ftco-footer-widget mb-4">
                 <h2 class="ftco-heading-2">Newsletter</h2>
-                <p><b style="color: rgba(255, 255, 255, 0.9);">Magic Shop's in your Inbox</b> <br> For special offers, new goodies, and the latest news join our mailing list.</p>
+                <p><b style="color: rgba(255, 255, 255, 0.9);">Happy Shoes Shop in your Inbox</b> <br> For special offers, new goodies, and the latest news join our mailing list.</p>
                 <form action="#" class="subscribe-form">
                   <div class="form-group">
                     <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
