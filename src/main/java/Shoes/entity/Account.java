@@ -66,15 +66,13 @@ public class Account {
         this.fullName = fullName;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-
     public String getEmail() {
         return email;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public String getPhone() {
         return phone;

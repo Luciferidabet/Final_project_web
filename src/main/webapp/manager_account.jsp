@@ -97,7 +97,7 @@
                 <li class="nav-item"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Blog</a></li>
                 <li class="nav-item "><a href="ManagerProductControl?action=manager_product" class="nav-link">Manager Product</a></li>
-                <li class="nav-item active"><a href="manager_product?action=manager_account" class="nav-link">Manager Account</a></li>
+                <li class="nav-item active"><a href="ManagerAccount?action=manager_account" class="nav-link">Manager Account</a></li>
             </ul>
         </div>
     </c:if>
@@ -190,7 +190,7 @@
                                                 </div>
               
                                               </div>
-                                        </c:forEach>
+                                </c:forEach>
 
                             </div>
 
@@ -264,8 +264,8 @@
                                         <label for="checkbox1"></label>
                                     </span>
                                 </td>
-                                <td>${o.accountid}</td>
-                                <td>${o.mail}</td>
+                                <td>${o.account_id}</td>
+                                <td>${o.email}</td>
                                 <td>
                                     <td>${o.address}</td>
                                 </td>
