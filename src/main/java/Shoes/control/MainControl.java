@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import Shoes.dao.DAO;
 import Shoes.entity.Category;
 import Shoes.entity.Product;
+import Shoes.entity.Account;
 import Shoes.util.MailUtilLocal;
 
 /**
@@ -30,6 +31,7 @@ public class MainControl extends HttpServlet {
         String email = request.getParameter("email");
         
         DAO dao = new DAO();
+        List<Account> listA = dao.getAllUser();
         List<Product> list = dao.getAllProducts();
         List<Product> listP1 = dao.getProductByCate1("1");
         List<Product> listP2 = dao.getProductByCate2("2");
@@ -41,6 +43,8 @@ public class MainControl extends HttpServlet {
         request.setAttribute("ListP2", listP2);
         request.setAttribute("ListP3", listP3);
         request.setAttribute("ListC", listC);
+        request.setAttribute("ListA", listA);
+
         if (action == null){
             action = "home";
         }

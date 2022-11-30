@@ -136,32 +136,65 @@
 					  <span class="cart-price cart-header cart-column">Price</span>
 					  <span class="cart-quantity cart-header cart-column">Quantity</span>
 					</div>
-					<div class="cart-items">
-					  <div class="cart-row">
-					  <div class="cart-item cart-column">
-						<img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-						<span class="cart-item-title">cart-item-</span>
-					  </div>
-					  
-					  <span class="cart-price cart-column">29$</span>
-					  <div class="cart-quantity cart-column">
-						<input class="cart-quantity-input" type="number" value="1">
-						<button class="modal-btn btn-danger" type="button">Delete</button>
-					  </div>
-					</div>
-					<div class="cart-row">
-					  <div class="cart-item cart-column">
-						<img class="cart-item-image" src="images/test-image.jpg" width="100" height="100">
-						<span class="cart-item-title">cart-item</span>
-					  </div>
-					  <span class="cart-price cart-column">29$</span>
-					  <div class="cart-quantity cart-column">
-						<input class="cart-quantity-input" type="number" value="2">
-						<button class="modal-btn btn-danger" type="button">Delete</button>
-					  </div>
-					</div>
-					
-				  </div>
+
+          <div class="cart-items">
+
+            <c:forEach items="${ListP1}" var = "o">
+
+            <div class="cart-row">
+                    <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                            <span class="cart-item-title">${o.product_name}</span>
+                    </div>
+
+                    <span class="cart-price cart-column">${o.price}</span>
+
+                    <div class="cart-quantity cart-column">
+                          <input class="cart-quantity-input" type="number" value="0">
+                          <button class="modal-btn btn-danger" type="button">Delete</button>
+                    </div>
+
+                  </div>
+            </c:forEach>
+
+
+            <c:forEach items="${ListP2}" var = "o">
+
+            <div class="cart-row">
+                    <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                            <span class="cart-item-title">${o.product_name}</span>
+                    </div>
+
+                    <span class="cart-price cart-column">${o.price}</span>
+
+                    <div class="cart-quantity cart-column">
+                          <input class="cart-quantity-input" type="number" value="0">
+                          <button class="modal-btn btn-danger" type="button">Delete</button>
+                    </div>
+
+                  </div>
+            </c:forEach>
+
+            <c:forEach items="${ListP3}" var = "o">
+
+                    <div class="cart-row">
+                            <div class="cart-item cart-column">
+                                    <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
+                                    <span class="cart-item-title">${o.product_name}</span>
+                            </div>
+
+                            <span class="cart-price cart-column">${o.price}</span>
+
+                            <div class="cart-quantity cart-column">
+                                  <input class="cart-quantity-input" type="number" value="0">
+                                  <button class="modal-btn btn-danger" type="button">Delete</button>
+                            </div>
+
+                          </div>
+                    </c:forEach>
+
+        </div>
 	
 				  <div class="cart-total">
 					<strong class="cart-total-title">Total:</strong>
@@ -184,7 +217,7 @@
 		</div>
 	</nav>
     <!-- END nav -->
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img/blogs/nike.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -201,35 +234,29 @@
       <div class="row">
         <div class="col-lg-8 ftco-animate">
           <p>
-            <img src="images/img/blogs/nike.jpg" alt="" class="img-fluid">
+            <img src="images/test-image.jpg" alt="" class="img-fluid">
           </p>
-          <h2 class="mb-3" style="font-size: 1.5 rem; font-weight:bold; line-height:1.2;">Nike phát hành bộ sưu tập giày đá bóng "DAYBREAK"</h2>
-        <p class="time-color" style="margin-top: -15px; font-size:13px;">January 3, 2022</p>
+          <h2 class="mb-3" style="font-size: 1.5 rem; font-weight:bold; line-height:1.2;">h2-content</h2>
+        <p class="time-color" style="margin-top: -15px; font-size:13px;">October 3, 2022</p>
         <p>p-content</p>
-        <!-- <h6 class="time-color" style="font-weight: bold;">h6-content</h6> -->
-        <p>Như vậy là chỉ ít ngày sau khi Nike Phantom GT ra mắt, Nike tiếp tục cho lên kệ phối màu của 2 dòng giày còn lại là Mercurial và Tiempo Legend, tạo nên một bộ sưu tập đầy đủ. Tên gọi được The Swoosh lựa chọn để đặt cho những phối màu mới này là “Daybreak”. Dường như cái tên này đã được Nike lựa chọn từ khá lâu rồi.</p>
+        <h6 class="time-color" style="font-weight: bold;">h6-content</h6>
+        <p>p-content</p>
 
-        <!-- <p>p-content</p>
         <p>p-content</p>
-        <p>p-content</p> -->
+        <p>p-content</p>
+        <p>p-content</p>
         <p>
-          <img src="images/img/blogs/nike_blog01.jpg" alt="" class="img-fluid">
+          <img src="images/test-image.jpg" alt="" class="img-fluid">
         </p>
-        <p>Bởi nếu đúng như “lịch trình”, đây là thời điểm “nghỉ hè” của thế giới bóng đá, và cái tên “Daybreak” được dùng để ám chỉ quãng thời gian này. Nhưng dịch bệnh đã làm thay đổi tất cả, “Daybreak” ra đời vào thời điểm gay cấn nhất của nhiều giải đấu bóng đá trên thế giới, đặc biệt nhất chính là vòng tứ kết Cúp C1 Châu Âu.Như đã nói ở bài viết về Nike Phantom GT, đây là lần đầu tiên sau 10 năm, Nike quay trở lại với một bộ sưu tập chỉ gồm 3 dòng giày.</p>
-        <!-- <h6 class="time-color" style="font-weight: bold;">h6-content</h6> -->
-        <!-- <p>p-content</p>
         <p>p-content</p>
-        <p>p-content</p> -->
-          <img src="images/img/blogs/nike_blog02.jpg" alt="" class="img-fluid">
+        <h6 class="time-color" style="font-weight: bold;">h6-content</h6>
+        <p>p-content</p>
+        <p>p-content</p>
+        <p>p-content</p>
+          <img src="images/test-image.jpg" alt="" class="img-fluid">
         </p>
-        <p>Và mặc dù được tạo nên dường như chỉ để làm nền cho dòng giày mới – Nike Phantom GT, phối màu của dòng Mercurial trông cũng rất bắt mắt, đặc biệt là logo Swoosh hình tia sét chạy dọc theo thân giày. Còn về phối màu của Nike Tiempo Legend 8 thì thôi…nói thế nào nhỉ…à…ừ thì đã có,nhưng có như không mà thôi…</p>
-          <img src="images/img/blogs/nike_blog03.jpg" alt="" class="img-fluid">
-        <p>Các bạn thấy bộ sưu tập mới này thế nào nhỉ? </p>
-        <p>Nguồn: facebook.com/soigiaycauthu</p>
-        <p>Theo dõi blog của ThanhHung Futsal để biết được những thông tin mới nhất về những đôi giày bóng đá chính hãng đã và sắp có mặt trên thị trường toàn thế giới nhé. Ngoài ra các bạn có thể tham khảo thêm những đôi giày bóng đá chính hãng phiên bản dành cho mặt sân cỏ nhân tạo và Futsal tại đây.</p>
-        <p>Hãy cùng đến Thanh Hùng Futsal để trải nghiệm dịch vụ với chất lượng được các ngôi sao hàng đầu thế giới kiểm chứng.</p>
-        <p>Tham khảo và nhận tư vấn giày thể thao tại:</p>    
-        <p>Thanh Hùng Futsal: Số 27 đường D52, Phường 12, Tân Bình, TP. Hồ Chí Minh.</p>
+        <p>p-content</p>
+        <p>p-content</p>
           <div class="tag-widget post-tag-container mb-5 mt-5">
             <div class="tagcloud">
               <a href="menu.jsp" class="tag-cloud-link">Nike</a>
@@ -241,14 +268,14 @@
 
 
           <div class="pt-5 mt-5">
-            <h3 class="mb-5 h4 font-weight-bold p-4 bg-light">Comment</h3>
+            <h3 class="mb-5 h4 font-weight-bold p-4 bg-light">h3-content</h3>
             <ul class="comment-list">
               <li class="comment">
                 <div class="vcard bio">
-                  <img src="images/img/CEO/ElonMusk.jpg" alt="Image placeholder">
+                  <img src="images/customer_1.jpg" alt="Image placeholder">
                 </div>
                 <div class="comment-body">
-                  <h3>Elon Musk</h3>
+                  <h3>Minh Nhut</h3>
                   <div class="meta mb-2">October 3, 2022</div>
                   <p>Great.</p>
                   <p><a href="#" class="reply">Reply</a></p>
@@ -257,22 +284,22 @@
 
               <li class="comment">
                 <div class="vcard bio">
-                  <img src="images/img/CEO/Hoai.jpg" alt="Image placeholder">
+                  <img src="images/test-image.jpg" alt="Image placeholder">
                 </div>
                 <div class="comment-body">
-                  <h3>Hoài</h3>
+                  <h3>Minh Nhut</h3>
                   <div class="meta mb-2">October 15, 2022</div>
-                  <p>It's so beautiful.</p>
+                  <p>It's so delicious.</p>
                   <p><a href="#" class="reply">Reply</a></p>
                 </div>
 
                 <ul class="children">
                   <li class="comment">
                     <div class="vcard bio">
-                      <img src="images/img/CEO/Phat.jpg" alt="Image placeholder">
+                      <img src="images//test-image.jpg" alt="Image placeholder">
                     </div>
                     <div class="comment-body">
-                      <h3>Phát</h3>
+                      <h3>Minh Nhut</h3>
                       <div class="meta mb-2">October 17, 2022</div>
                       <p>Good job!</p>
                       <p><a href="#" class="reply">Reply</a></p>
@@ -282,10 +309,10 @@
                     <ul class="children">
                       <li class="comment">
                         <div class="vcard bio">
-                          <img src="images/img/CEO/Nhut.jpg" alt="Image placeholder">
+                          <img src="images/test-image.jpg" alt="Image placeholder">
                         </div>
                         <div class="comment-body">
-                          <h3>Nhựt</h3>
+                          <h3>Minh Nhut</h3>
                           <div class="meta mb-2">October 7, 2022</div>
                           <p>Love u</p>
                           <p><a href="#" class="reply">Reply</a></p>
@@ -294,10 +321,10 @@
                         <ul class="children">
                           <li class="comment">
                             <div class="vcard bio">
-                              <img src="images/img/CEO/ElonMusk.jpg" alt="Image placeholder">
+                              <img src="images/test-image.jpg" alt="Image placeholder">
                             </div>
                             <div class="comment-body">
-                              <h3>Elon Musk</h3>
+                              <h3>Minh Nhut</h3>
                               <div class="meta mb-2">October 1, 2022</div>
                               <p>Love u too</p>
                               <p><a href="#" class="reply">Reply</a></p>
@@ -365,34 +392,34 @@
         <div class="sidebar-box ftco-animate">
           <h3>Popular Articles</h3>
           <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/img/blogs/nike.jpg);"></a>
+            <a class="blog-img mr-4" style="background-image: url(images/test-image.jpg);"></a>
             <div class="text">
-              <h3 class="heading" style="font-size:17px;"><a href="blog-single.jsp">Nike phát hành bộ sưu tập giày đá bóng "DAYBREAK"</a></h3>
+              <h3 class="heading" style="font-size:17px;"><a href="blog-single.jsp">h3-content</a></h3>
               <div class="meta">
                 <div><span class="icon-calendar"></span> Oct 3, 2022</div>
-                <div><span class="icon-person"></span>Dương Tôn Phát</div>
+                <div><span class="icon-person"></span>Minh Nhut</div>
                 <!-- <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
               </div>
             </div>
           </div>
           <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/img/blogs/conv.jpg);"></a>
+            <a class="blog-img mr-4" style="background-image: url(images/test-image.jpg);"></a>
             <div class="text">
-              <h3 class="heading"><a href="blog-single.jsp">Review giày Converse Classic - item thời trang cơ bản không thể thiếu</a></h3>
+              <h3 class="heading"><a href="blog-single.jsp">h3-content</a></h3>
               <div class="meta">
                 <div><span class="icon-calendar"></span> Oct 2, 2022</div>
-                <div><span class="icon-person"></span>Minh Nhựt</div>
+                <div><span class="icon-person"></span> Nhut</div>
                 <!-- <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
               </div>
             </div>
           </div>
           <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/img/blogs/adidas.jpg);"></a>
+            <a class="blog-img mr-4" style="background-image: url(images/test-image.jpg);"></a>
             <div class="text">
-              <h3 class="heading"><a href="blog-single.jsp">CEO Adidas: Chưa biết khi nào hãng sẽ tiếp tục hoạt động kinh doanh tại Nga</a></h3>
+              <h3 class="heading"><a href="blog-single.jsp">h3-content</a></h3>
               <div class="meta">
                 <div><span class="icon-calendar"></span> Oct 3, 202</div>
-                <div><span class="icon-person"></span>Thu Hoài</div>
+                <div><span class="icon-person"></span> Minh Nhut</div>
                 <!-- <div><a href="#"><span class="icon-chat"></span> 19</a></div> -->
               </div>
             </div>
@@ -426,7 +453,7 @@
 
        <div class="sidebar-box ftco-animate">
         <h3>Paragraph</h3>
-        <p>Adidas, Nike, Zappos and other footwear brands made headlines with their shoe marketing campaigns. Nike, for example, focuses on creating meaningful stories that evoke emotions. Adidas has emerged as a brand built on innovation, while Zappos delivers highly personalized customer experiences. While you may not have the same budget as these brands, you can still grow your shoe business and stay competitive by thinking outside the box.</p>
+        <p>p-content</p>
       </div>
     </div><!-- END COL -->
     </div>
