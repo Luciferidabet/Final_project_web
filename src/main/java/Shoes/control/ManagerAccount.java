@@ -1,4 +1,3 @@
-
 package Shoes.control;
 
 import java.io.IOException;

@@ -153,7 +153,7 @@
                                         <div class="cart-item cart-column">
                                                 <img class="cart-item-image" src="${o.productImg_path}" width="100" height="100">
                                                 <span class="cart-item-title">${o.product_name}</span>
-                                        </div>
+                                        </div>  
       
                                         <span class="cart-price cart-column">${o.price}</span>
       

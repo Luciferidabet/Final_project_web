@@ -256,7 +256,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <c:forEach items="${ListA}" var = "o">
+                        <c:forEach items="${listA}" var="o">
                             <tr>
                                 <td>
                                     <span class="custom-checkbox">
@@ -264,12 +264,17 @@
                                         <label for="checkbox1"></label>
                                     </span>
                                 </td>
-
-                                <td>${o.account_id}</td>
-                                <td>${o.email}</td>         
-                                <td>${o.address}</td>
-                                <td>${o.userName}</td>
-                                <td>${o.password}</td>
+                                <td>${o.product_id}</td>
+                                <td>${o.product_name}</td>
+                                <td>
+                                    <img style="width: 120px; height: 85px;" src="${o.productImg_path}">
+                                </td>
+                                <td>$${o.price}</td>
+                                <td>${o.category_id}</td>
+                                <td>
+                                    <a href="#editEmployeeModal"  class="edit" data-toggle="modal">Edit</a><br><!-- comment -->
+                                    <a href="DeleteControl?pid=${o.product_id}" class="delete">Delete</a>
+                                </td>
                             </tr>
                         </c:forEach>
                     </tbody>
