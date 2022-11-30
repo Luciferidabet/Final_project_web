@@ -10,23 +10,23 @@ package Shoes.entity;
  */
 
 public class Account {
-    private int accountid;
+    private int account_id;
     private String userName;
     private String password;
     private String fullName;
-    private String mail;
+    private String email;
     private String phone;
     private String address;
     private int isAdmin;
     private int enable;
     
 
-    public Account(int accountid, String userName, String password, String fullName, String mail, String phone, String address, int isAdmin, int enable) {
-        this.accountid = accountid;
+    public Account(int account_id, String userName, String password, String fullName, String email, String phone, String address, int isAdmin, int enable) {
+        this.account_id = account_id;
         this.userName = userName;
         this.password = password;
         this.fullName = fullName;
-        this.mail = mail;
+        this.email = email;
         this.phone = phone;
         this.address = address;
         this.isAdmin = isAdmin;
@@ -35,11 +35,11 @@ public class Account {
     
     
     public int getAccountId() {
-        return accountid;
+        return account_id;
     }
 
     public void setAccountId(int accountId) {
-        this.accountid = accountId;
+        this.account_id = accountId;
     }
 
     public String getUserName() {
@@ -66,13 +66,13 @@ public class Account {
         this.fullName = fullName;
     }
 
-    public void setEmail(String mail) {
-        this.mail = mail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 
     public String getEmail() {
-        return mail;
+        return email;
     }
 
 
@@ -110,7 +110,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" + "account_id=" + account_id + ", userName=" + userName + ", password=" + password + ", fullName=" + fullName + ", mail=" + mail + ", phone=" + phone + ", address=" + address + ", isAdmin=" + isAdmin + ", enable=" + enable + '}';
+        return "Account{" + "account_id=" + account_id + ", userName=" + userName + ", password=" + password + ", fullName=" + fullName + ", email=" + email + ", phone=" + phone + ", address=" + address + ", isAdmin=" + isAdmin + ", enable=" + enable + '}';
     }
     
 }
