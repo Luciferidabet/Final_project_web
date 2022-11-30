@@ -224,8 +224,8 @@ public class DAO {
     
 
     public  void signup(String user, String pass, String fullname, String email, String phone, String address){
-        String query = "insert into account(userName, password, fullName, email, phone, address)\n"
-                + "values(?,?,?, ?, ?, ?)";
+        String query = "insert into account(userName, password, fullName, email, phone, address,isAdmin,enable)\n"
+                + "values(null,?,?,?, ?, ?, ?,0,1)";
         fullname = "null";
         try {
             conn = new DBContext().getConnection();
@@ -240,6 +240,7 @@ public class DAO {
         } catch (Exception e) {
         }
     }
+    
     public Account checkAccountExistbyUserId(int account_id){
         String query = "select * from account\n"
                 + "where account_id = ?";

@@ -278,34 +278,15 @@
     <div class="row">
         <div class="col">
             <div class="related-owl-carousel">
+              <c:forEach items="${ListP1}" var = "o">
                 <div class="product-card">
-                    <a  href="chicken-empanada.jsp" data-abc="true"><img class="product-thumb" src="../images/bread-10.png" alt="Product"></a>
-                    <h3 class="product-title"><a href="chicken-empanada.jsp" data-abc="true">Chicken Empanada</a></h3>
+                    <a  href="chicken-empanada.jsp" data-abc="true"><img class="product-thumb" src="${o.productImg_path}" alt="Product"></a>
+                    <h3 class="product-title"><a href="chicken-empanada.jsp" data-abc="true">${o.product_name}</a></h3>
                     <p class= "price-title">Price: <del style="margin-left: 5px;">39$</del></p> 
                     <h4 class="product-price">29$ </h4>
                     <div class="product-buttons"><button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button> </div>
                 </div>
-                <div class="product-card">
-                  <a  href="meat-pie.jsp" data-abc="true"><img class="product-thumb" src="../images/bread-12.png" alt="Product"></a>
-                  <h3 class="product-title"><a href="meat-pie.jsp" data-abc="true">Meat Pie (Pastel De Carne)</a></h3>
-                  <p class= "price-title">Price: <del style="margin-left: 5px;">39$</del></p> 
-                    <h4 class="product-price">29$ </h4>
-                    <div class="product-buttons"><button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button> </div>
-                </div>
-                <div class="product-card">
-                  <a  href="milk-berries.jsp" data-abc="true"><img class="product-thumb" src="../images/wine-2.jpg" alt="Product"></a>
-                  <h3 class="product-title"><a href="milk-berries.jsp" data-abc="true">Milk's Berries Cake Round</a></h3>
-                  <p class= "price-title">Price: <del style="margin-left: 5px;">39$</del></p> 
-                    <h4 class="product-price">29$ </h4>
-                    <div class="product-buttons"><button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button> </div>
-                </div>
-                <div class="product-card">
-                  <a  href="chocolate-cookie.jsp" data-abc="true"><img class="product-thumb" src="../images/bread-14.png" alt="Product"></a>
-                  <h3 class="product-title"><a href="chocolate-cookie.jsp" data-abc="true">Chocolate Chip Cookie</a></h3>
-                  <p class= "price-title">Price: <del style="margin-left: 5px;">39$</del></p> 
-                    <h4 class="product-price">29$ </h4>
-                    <div class="product-buttons"><button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button> </div>
-                </div>
+              </c:forEach>
             </div>
         </div>
     </div>

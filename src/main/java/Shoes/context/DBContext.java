@@ -15,7 +15,7 @@ public class DBContext {
         String connectionURL = "jdbc:mysql://" + hostName + ":3306/" + dbName+"?reconnect=true";
         if(instance == null || instance.trim().isEmpty())
             connectionURL = "jdbc:mysql://" + hostName + ":3306/" + dbName+"?reconnect=true";
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         return DriverManager.getConnection(connectionURL, userID, password);
     }
 //      public String getImagePath() throws Exception {

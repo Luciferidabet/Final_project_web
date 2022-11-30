@@ -92,8 +92,8 @@
                 <!-- <li class="nav-item"><a href="./order/order.html" class="nav-link">Order</a></li> -->
                 <li class="nav-item active"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="ManagerProductControl?action=manager_product" class="nav-link">Manager Product</a></li>
-                <li class="nav-item"><a href="ManagerAccount?action=manager_account" class="nav-link">Manager Account</a></li>
+                <li class="nav-item"><a href="ManagerProductControl?action=ManagerProductControl" class="nav-link">Manager Product</a></li>
+                <li class="nav-item"><a href="ManagerAccount?action=ManagerAccount" class="nav-link">Manager Account</a></li>
             </ul>
         </div>
     </c:if>
@@ -247,7 +247,7 @@
                                                                         <h3><a href="#">${o.product_name}</a></h3>
                                                                 </div>
                                                                 <div class="one-forth">
-                                                                        <span class="price">${o.price}</span>
+                                                                        <span class="price">$ ${o.price}</span>
                                                                 </div>
                                                         </div>
                                                         <p>${o.description}</p>
