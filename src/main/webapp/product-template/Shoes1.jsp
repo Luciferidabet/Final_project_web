@@ -46,6 +46,7 @@
   <script src="../order/js/data.js"></script>
   <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 </head>
+
     <div class="wrap">
       <div class="container">
           <div class="row justify-content-between">

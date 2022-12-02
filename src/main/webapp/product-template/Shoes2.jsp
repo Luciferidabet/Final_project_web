@@ -265,6 +265,8 @@
                   <button class="round-black-btn">Add to Cart</button>
                   <button class="round-black-btn goCart-btn">Buy Now</button>
                 </div>
+
+                
             </div>
           </div>
         </div>
