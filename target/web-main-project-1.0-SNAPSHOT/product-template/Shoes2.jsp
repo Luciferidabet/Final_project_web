@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Magic Shop - Bakery | Product Details</title>
+  <title>Happy Shoes shop | Product Details</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -107,8 +107,8 @@
                 <!-- <li class="nav-item"><a href="./order/order.html" class="nav-link">Order</a></li> -->
                 <li class="nav-item"><a href="MainControl?action=menu" class="nav-link">Menu</a></li>
                 <li class="nav-item"><a href="MainControl?action=reservation" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="ManagerProductControl?action=manager_product" class="nav-link">Manager Product</a></li>
-                <li class="nav-item"><a href="MainControl?action=manager_account" class="nav-link">Manager Account</a></li>
+                <li class="nav-item"><a href="../ManagerProductControl?action=manager_product" class="nav-link">Manager Product</a></li>
+                <li class="nav-item"><a href="../MainControl?action=manager_account" class="nav-link">Manager Account</a></li>
             </ul>
         </div>
     </c:if>
@@ -265,6 +265,8 @@
                   <button class="round-black-btn">Add to Cart</button>
                   <button class="round-black-btn goCart-btn">Buy Now</button>
                 </div>
+
+                
             </div>
           </div>
         </div>
